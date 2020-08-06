@@ -27,22 +27,22 @@ app.use(express.static(pubDirPath))
 app.get("", (req, res) => {
     res.render('index', {
         title: "Weather App",
-        name: "Mary Sutton"
+        name: "©2020"
     })
 })
 
 app.get("/about", (req, res) => {
     res.render('about', {
         title: "About Me",
-        name: "Mary Sutton"
+        name: "©2020"
     })
 })
 
 app.get("/help", (req, res) => {
     res.render('help', {
         title: "Help Page",
-        message: "I am not a purple rockamapatamus, but some may say that well.",
-        name: "Mary Sutton"
+        message: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce at dictum diam. Sed ante eros, sodales at leo sed, blandit maximus enim. Pellentesque ultrices malesuada neque at pharetra. Morbi ac sapien facilisis, sagittis dui volutpat, dignissim mauris. Curabitur maximus nibh eget metus congue, et elementum justo egestas. Nunc congue dictum malesuada. Maecenas a libero sed mi interdum mattis. Duis tincidunt nunc mi.",
+        name: "©2020"
     })
 })
 // app.get("/help", (req, res) => {
